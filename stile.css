@@ -1,0 +1,470 @@
+
+
+* {
+
+    box-sizing: border-box;
+    
+}
+
+.general{
+
+
+
+}
+
+
+.Izquierdo{
+
+  display:inline-block;
+  margin-left: 30%;
+
+}
+
+.alcentro{
+
+    display:inline-block;
+    
+}
+
+.Derecho {
+    display:inline-block;
+}
+
+#boton_1{
+    position: relative;
+    bottom:350px;
+}
+
+#puntaje_2{
+    position: relative;
+    bottom:350px;
+}
+
+.puntaje{
+    width: 300px;
+    height: 200px;
+    padding:10px 0px;
+    margin:20px;
+    margin-top:20px;
+
+    background-color:rgb(228, 213, 213);
+    border-radius: 15%;
+    border: 15px solid #000;
+
+
+    text-align: center;
+    text-decoration: none;
+    font: bold;
+    font-size: 6.00em;
+   
+ 
+}
+
+
+/*imagenes del centro----------------------*/
+
+#rostro{
+
+    position: absolute;
+
+    width: 260px;
+    margin-top: 30px;
+    margin-bottom:15px;
+    margin-right: 15px;
+    margin-left: 15px;
+
+
+}
+/* Espacios extra------------ */
+
+.calificacionStuff{
+
+    display: flex;
+    margin-top: 2%;
+  
+    
+     
+}
+.cuadrado_salvador {
+
+    background-color:rgb(255, 255, 255);
+    width: 150px;
+    /*border-radius: 15%;*/
+    
+    height: 150px;
+    border: 15px solid #000;
+    padding: 15px;
+    
+        
+    margin-left: 45%;
+    margin-right: 20px;
+    margin-top: 20px;
+
+    -webkit-transform: rotate(45deg);
+     -moz-transform: rotate(45deg);
+     -ms-transform: rotate(45deg);
+     -o-transform: rotate(45deg);
+     transform: rotate(45deg);
+     transition: all 1.5s;
+
+}
+
+.cuadrado_salvadorFake {
+
+    background-color:rgb(255, 255, 255);
+    width: 10px;
+    /*border-radius: 15%;*/
+    
+    height: 0px;
+    border: 0px solid #000;
+    padding: 0px;
+    margin-bottom: 100px;
+    
+   
+
+    -webkit-transform: rotate(45deg);
+     -moz-transform: rotate(45deg);
+     -ms-transform: rotate(45deg);
+     -o-transform: rotate(45deg);
+     transform: rotate(45deg);
+
+}
+.contenedor_Pnts_boton{
+
+    display:inline-block;
+    margin:10px;
+
+
+
+}
+
+.boton1{
+    width: 200px;
+    height: 200px;
+
+    background: rgb(252, 2, 2);
+    color:#FFF;
+    display:inline-block;
+   
+    padding:10px 0px;
+    border-radius: 30%;
+    border: 4px solid #000;
+    box-shadow: 0px 5px 0px #373737 ;
+
+
+    text-align: center;
+    text-decoration: none;
+    font: bold;
+    font-size: 4.00em;
+    transition: all 1.5s;
+}
+
+.boton1Fake{
+
+    width: 0px;
+    height: 0px;
+    display:inline-block;
+    padding: 0px 0px;
+    border: 0px solid #000;
+    margin-left: 200px; 
+
+}
+
+.boton1:hover {
+    background: rgb(180, 11, 11);
+
+}
+.boton1:active{
+
+    background: rgb(121, 10, 10);
+    border: 0,5px solid #000;
+    box-shadow: 0px 5px 0px #faf7f7 ;
+    font-size: 1.20em;
+    
+}
+
+#tituloEnemigo{
+
+margin-left: 30% ;
+font-size: 50px;
+
+
+}
+
+
+#tituloTu{
+
+ margin-left: 30% ;
+font-size: 50px;
+
+
+}
+
+
+/* contenedores de los cuadrados ----------------- */
+
+.contenedor1, .contenedor2, .contenedor3 { 
+    display:inline-block;
+    margin:10px;
+    
+}
+
+
+.contenedor4 {
+    display: flex;
+    margin-bottom:15px;
+    
+}
+
+.contenedor0 {
+    margin-top: 0%;
+    display: flex;
+    margin-bottom:15px;
+    
+}
+
+
+
+/* Cuadrados --------------------------------------- */
+
+.cuadrado1{
+
+    background-color:rgb(236, 5, 5);
+    width: 150px;
+    border-radius: 15%;
+    
+    height: 150px;
+    border: 15px solid #000;
+    padding: 15px;
+    
+        
+    margin-left: 40px;
+    margin-right: 20px;
+     
+}
+    
+.cuadrado2{
+    
+    background-color:rgb(5, 236, 5);
+    width: 150px;
+    border-radius: 15%;
+    
+    height: 150px;
+    border: 15px solid #000;
+    padding: 15px;
+       
+    margin:  0px  23px;
+       
+}
+
+.cuadrado3{
+
+    background-color:rgb(74, 5, 236);
+    width: 150px;
+    border-radius: 15%;
+
+    height: 150px;
+    border: 15px solid #000;
+    padding: 15px;
+   
+    margin:  0px  23px;
+   
+}
+
+.cuadrado4{
+
+    background-color:rgb(74, 5, 236);
+    width: 150px;
+    border-radius: 15%;
+
+    height: 150px;
+    border: 15px solid #000;
+    padding: 15px;
+    margin:  0px  23px;
+   
+}
+
+.cuadrado5{
+
+    background-color:rgb(236, 5, 5);
+    width: 150px;
+    border-radius: 15%;
+
+    height: 150px;
+    border: 15px solid #000;
+    padding: 15px;
+
+    
+    margin-left:  30px;
+    margin-right:  30px;
+    margin-bottom: 10px;
+    
+ 
+}
+
+.cuadrado6{
+
+    background-color:rgb(74, 5, 236);
+    width: 150px;
+    border-radius: 15%;
+
+    height: 150px;
+    border: 15px solid #000;
+    padding: 15px;
+   
+    margin-left:  30px;
+    margin-right:  15px;
+    
+   
+}
+
+
+.cuadrado7{
+
+    background-color:rgb(74, 5, 236);
+    width: 150px;
+    border-radius: 15%;
+
+    height: 150px;
+    border: 15px solid #000;
+    padding: 15px;
+   
+    margin:  0px  23px;
+   
+}
+.cuadrado8{
+
+    background-color:rgb(74, 5, 236);
+    width: 150px;
+    border-radius: 15%;
+
+    height: 150px;
+    border: 15px solid #000;
+    padding: 15px;
+   
+    margin:  0px  23px;
+   
+}
+
+.cuadrado9{
+
+    background-color:rgb(74, 5, 236);
+    width: 150px;
+    border-radius: 15%;
+
+    height: 150px;
+    border: 15px solid #000;
+    padding: 15px;
+   
+    margin:  0px  23px;
+   
+}
+
+.cuadrado10{
+
+    background-color:rgb(236, 5, 5);
+    width: 150px;
+    border-radius: 15%;
+    
+    height: 150px;
+    border: 15px solid #000;
+    padding: 15px;
+    
+        
+    margin-left: 40px;
+    margin-right: 20px;
+   
+}
+.cuadrado11{
+
+    background-color:rgb(5, 236, 5);
+    width: 150px;
+    border-radius: 15%;
+
+    height: 150px;
+    border: 15px solid #000;
+    padding: 15px;
+   
+    margin-left:  30px;
+    margin-right:  30px;
+   
+}
+
+.cuadrado12{
+
+    background-color:rgb(236, 5, 5);
+    width: 150px;
+    border-radius: 15%;
+
+    height: 150px;
+    border: 15px solid #000;
+    padding: 15px;
+
+    
+    margin-left:  30px;
+    margin-right:  30px;
+    margin-bottom: 10px;
+ 
+}
+
+
+
+.cuadradoCen{
+
+    display:inline-block;
+    background-color:rgb(163, 5, 236);
+    width: 300px;
+    height: 310px;
+    border-radius: 15%;
+    border: 15px solid #000;
+    margin-left:15px;
+    margin-right:15px;
+    margin-bottom: 10px;
+   
+}
+
+/*----medidor----------------------------*/
+
+
+#meter5 {
+    
+    width:40%;
+    height:90px;
+
+    margin-left: 28%;
+}
+#meter5::-webkit-meter-bar {
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#FFF), color-stop(0.20, #eee), color-stop(0.45, #eee), color-stop(0.55, #ccc));
+    border-radius:5px;}
+
+    #meter5::-webkit-meter-optimum-value {
+        background: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#FFF), color-stop(0.20, #cea), color-stop(0.45, #7a3), color-stop(0.55, #7a3));
+        border-radius:5px;
+    }
+
+    #meter5::-webkit-meter-suboptimum-value {
+        background: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#FFF), color-stop(0.20, #ffc), color-stop(0.45, #db3), color-stop(0.55, #db3));
+        border-radius:5px;
+}
+
+
+#meter_win {
+   
+    width:40%;
+    height:90px;
+
+    margin-left: 28%;
+}
+#meter_win::-webkit-meter-bar {
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#FFF), color-stop(0.20, #eee), color-stop(0.45, #eee), color-stop(0.55, #ccc));
+    border-radius:5px;}
+
+    #meter_win::-webkit-meter-optimum-value {
+        background: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#FFF), color-stop(0.20, #cea), color-stop(0.45, rgb(51, 53, 170)), color-stop(0.55, rgb(170, 59, 51)));
+        border-radius:5px;
+    }
+
+    #meter_win::-webkit-meter-suboptimum-value {
+        background: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#FFF), color-stop(0.20, #ffc), color-stop(0.45, #db3), color-stop(0.55, #db3));
+        border-radius:5px;
+}
